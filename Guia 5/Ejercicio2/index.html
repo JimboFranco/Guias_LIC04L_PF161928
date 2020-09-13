@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center">Conversor de metros</h2>
+        <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center text-center">
+                <p>Elija un unidad:</p>
+                <label class="radio-inline ml-4 mr-5"><input class="radio" id="medida1" type="radio" name="optradio" value="Pies" checked>Pies</label>
+                <label class="radio-inline mr-5"><input class="radio" id="medida2" type="radio" name="optradio" value="Pulgadas">Pulgadas</label>
+                <label class="radio-inline mr-5"><input class="radio" id="medida3" type="radio" name="optradio" value="Yardas">Yardas</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center text-center">
+                <p id="result">Resultados: 0 Metros a Pies = 0</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

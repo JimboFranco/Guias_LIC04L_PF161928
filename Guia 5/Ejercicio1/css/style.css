@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+}
+.colorHeader{
+    background-color: bisque;
+    height: 100px;
+}
+
+.colorNav{
+    background-color:aquamarine;
+    height: 480px;
+}
+
+.colorArt{
+    background-color:aquamarine;
+    height: 150px;
+}
+.colorFooter{
+    background-color: darkseagreen;
+    height: 60px;
+}
